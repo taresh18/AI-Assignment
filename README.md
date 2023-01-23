@@ -14,3 +14,9 @@ I extracted a sample image called "testImage.png" from the video which contains 
 
 ![Screenshot (14)](https://user-images.githubusercontent.com/58368119/214177913-128e5881-06e0-4169-b532-e090f03dc00e.png)
 
+After getting the hsv range for different colors, I created masks for each color in each frame and used it to track different balls across the frames in the video. </br>
+
+The program keeps track of the timestamp at which each ball enters or exit the frame and shows it on the video itself.
+
+Additionally, the timestamps of different color balls entering or leaving the frame is also saved in a dataframe which can later be saved as a csv / text file.
+
