@@ -4,7 +4,8 @@ Input video link - https://drive.google.com/file/d/1goI3aHVE29Gko9lpTzgi_g3CZZPj
 Output video link - https://drive.google.com/file/d/1qMfo-UoDiqdeFLn3Mc0IFQAoG_kGzk9A/view?usp=share_link  </br>
 
 The file "assignment.py" can be run as a script which takes arguments as follows : </br>
-python assignment.py -v "path to input video file" -o "name of output video file to be specified"  </br>
+![Screenshot (15)](https://user-images.githubusercontent.com/58368119/214179024-021a7fd5-bb62-4267-ad31-fb5113753265.png)
+
 
 The program has provision for feeding a new video which can be easily provided as shown above. The processed video is saved on local hard disk whose path can also be provided as shown above.
 
