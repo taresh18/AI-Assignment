@@ -11,11 +11,11 @@ The program has provision for feeding a new video which can be easily provided a
 
 The video contains 4 balls of different colours which need to be tracked throughout the video. I used openCV to create masks for different color balls using their respective hsv color space. 
 
-I extracted a sample image called "testImage.png" from the video which contains all 4 balls simultaneously and wrote a program with which we can fine tune the hsv range for different colours present in the image.
+I extracted a sample image called "testImage.png" from the video which contains all 4 balls simultaneously and wrote a program with which I fine tuned the hsv range for different colours present in the image.
 
 ![Screenshot (14)](https://user-images.githubusercontent.com/58368119/214177913-128e5881-06e0-4169-b532-e090f03dc00e.png)
 
-After getting the hsv range for different colors, I created masks for each color in each frame and used it to track different balls across the frames in the video. </br>
+After getting the hsv range for different colors, I created masks for each color in each frame then applied dilations and erosion to get contours of respective colors in a frame and used it to track different balls across the frames in the video. </br>
 
 The program keeps track of the timestamp at which each ball enters or exit the frame and shows it on the video itself.
 
